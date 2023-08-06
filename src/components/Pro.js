@@ -3,6 +3,7 @@ import CardGroup from "react-bootstrap/CardGroup";
 import Button from "react-bootstrap/Button";
 import "./pro.css";
 import Technovation from "../assets/img/technovation.png";
+import Skill from "../assets/img/project-2.png";
 function Pro() {
   return (
     <div className="project-section">
@@ -103,40 +104,38 @@ function Pro() {
           </article>
           <article class="postcard dark red">
             <a className="postcard__img_link" href="#">
-              <img
-                className="postcard__img"
-                src="https://picsum.photos/501/500"
-                alt="Image Title"
-              />
+              <img className="postcard__img" src={Skill} alt="Image Title" />
             </a>
             <div className="postcard__text">
               <h1 className="postcard__title red">
                 <a href="#">PROJECT NO 3</a>
               </h1>
               <div className="postcard__subtitle small">
-                <time datetime="2020-05-25 12:00:00">
-                  <i className="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
-                </time>
+                <p>SKILL BREWERY - CODEVITA LIVE WEBSITE RECREATION</p>
               </div>
               <div className="postcard__bar"></div>
               <div className="postcard__preview-txt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi, fugiat asperiores inventore beatae accusamus odit
-                minima enim, commodi quia, doloribus eius! Ducimus nemo
-                accusantium maiores velit corrupti tempora reiciendis molestiae
-                repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt
-                neque nulla unde ipsum dolores nobis enim quidem excepturi,
-                illum quos!
+                <p>
+                  This project was created for the OutOfContext Web Hackathon
+                  competition. In my creation, I have included the same
+                  functionality and characteristics. Skill Brewery is an
+                  internship program provided by CodeVita Live.
+                  LANG USED : REACTJS,BOOSTRAP AND FIREBASE
+                </p>
               </div>
               <ul className="postcard__tagbox">
                 <li className="tag__item">
                   <Button variant="dark" className="project-button">
-                    Demo Link
+                    <a href="https://nandine0804.github.io/OutofContext/">
+                      DEMO LINK
+                    </a>
                   </Button>
                 </li>
                 <li className="tag__item">
                   <Button variant="dark" className="project-button">
-                    Github Link
+                    <a href="https://github.com/Nandine0804/OutofContext">
+                      GITHUB LINK
+                    </a>
                   </Button>
                 </li>
               </ul>

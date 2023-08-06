@@ -1,5 +1,5 @@
 import React from "react";
-import Mine from "../assets/img/image.jpg";
+import Nandine from "../assets/resume/Nandine.pdf";
 const About = () => {
   return (
     <div id="about" className="about">
@@ -11,9 +11,9 @@ const About = () => {
         <p>
           I have a passion for building stunning and useful websites and
           consider myself to be a skilled web developer and designer. I'm
-          currently a pre-final student at Rajalakshmi Engineering College (REC),
-          where I'm laying a solid foundation in computer science and business
-          systems. I also had the chance to design the website for my
+          currently a pre-final student at Rajalakshmi Engineering College
+          (REC), where I'm laying a solid foundation in computer science and
+          business systems. I also had the chance to design the website for my
           department, which attracts lots of students due to the numerous
           animations I used.
         </p>
@@ -28,7 +28,11 @@ const About = () => {
         </p>
       </div>
       <div className="about-connect">
-        <button className="about-connect-button">Download CV</button>
+        <button className="about-connect-button">
+          <a href={Nandine} target="_blank" title="Nandine S S">
+            Download CV
+          </a>
+        </button>
       </div>
     </div>
   );

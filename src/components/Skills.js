@@ -9,6 +9,7 @@ import meter8 from "../assets/img/bootstrap.png";
 import meter9 from "../assets/img/nodejs.png";
 import meter10 from "../assets/img/git-logo.png";
 import meter11 from "../assets/img/firebase.png";
+import meter12 from "../assets/img/java.png"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
@@ -108,11 +109,30 @@ const Skills = () => {
                   <h5>Adobe InDesign</h5>
                 </div>
                 <div className="item">
+                  <img src={meter12} alt="Image" />
+                  <h5>Java</h5>
+                </div>
+                <div className="item">
                   <img
-                    src="https://o.remove.bg/downloads/5a2de164-b23b-4e1a-b515-2b03144f6d6e/png-transparent-java-logo-java-runtime-environment-computer-icons-java-platform-standard-edition-java-miscellaneous-text-logo-thumbnail-removebg-preview.png"
+                    src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png"
                     alt="Image"
                   />
-                  <h5>Java</h5>
+                  <h5>Docker</h5>
+                </div>
+
+                <div className="item">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png"
+                    alt="Image"
+                  />
+                  <h5>AWS</h5>
+                </div>
+                <div className="item">
+                  <img
+                    src="https://www.gend.co/hs-fs/hubfs/gcp-logo-cloud.png?width=730&name=gcp-logo-cloud.png"
+                    alt="Image"
+                  />
+                  <h5>GCP</h5>
                 </div>
               </Carousel>
             </div>
