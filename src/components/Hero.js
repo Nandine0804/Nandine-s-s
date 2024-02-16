@@ -67,6 +67,7 @@ const Hero = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
+                  id="home"
                   className={
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
@@ -86,13 +87,9 @@ const Hero = () => {
                     </span>
                   </h1>
                   <p>
-                    I have a well-rounded skill set with experience in web
-                    development, web design, and UI/UX design that enables me to
-                    approach projects from various angles. I'm also proficient
-                    in languages like HTML, CSS, Bootstrap, TailwindCSS,
-                    JavaScript, and Reactjs. I'm constantly learning new methods
-                    and tools to keep up with the most recent developments in
-                    the field.
+                    Design and coding enthusiast with a keen interest in cloud
+                    computing. Passionate about blending creativity with
+                    technology for innovative solutions.
                   </p>
                   <button
                     class="connect"

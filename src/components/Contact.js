@@ -16,18 +16,18 @@ const Contact = () => {
         "service_08nwq6l",
         "template_xg1ncxg",
         form.current,
-        "wYFoX5Ldbge0wDuxf"
+        "lA3bQ7JgT2oGFrvwD"
       )
       .then(
         (result) => {
           console.log(result.text);
-          alert('Thanks for connecting. Hope to see you again')
+          alert("Thanks for connecting. Hope to see you again");
         },
         (error) => {
           console.log(error.text);
-          alert('Oops...Try Again')
+          alert("Oops...Try Again");
         }
-    );
+      );
     e.target.reset();
   };
   return (

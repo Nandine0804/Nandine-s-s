@@ -46,7 +46,7 @@ const Experience = () => {
             onClick={() => toggleTab(1)}
           >
             <div className="exp-data">
-              <div>
+              <div class="datas">
                 <h3 className="exp-title">
                   B.Tech Computer Science and Business Systems
                 </h3>
@@ -54,10 +54,10 @@ const Experience = () => {
                   Rajalakshmi Engineering College , Thandalam
                 </span>
                 <div className="exp-calender">
-                  <p>CGPA : 8.38</p>
+                  <p>CGPA : 8.85</p>
                   <h3>
                     <img className="exp-icons" src={calendar} alt="calendar" />
-                    2020 - Present
+                    2021 - Present
                   </h3>
                 </div>
               </div>
@@ -68,6 +68,25 @@ const Experience = () => {
               </div>
             </div>
             <div className="exp-data">
+              <div class="datas">
+                <h3 className="exp-title">Higher Secondary Education</h3>
+                <span className="exp-subtitle">
+                  CBSE, Velammal Vidyalaya, Parthipattu
+                </span>
+                <div className="exp-calender">
+                  <p>GRADE : 89%</p>
+                  <h3>
+                    <img className="exp-icons" src={calendar} alt="calendar" />
+                    2019 - 2021
+                  </h3>
+                </div>
+              </div>
+              <div>
+                <span className="exp-rounder"></span>
+                <span className="exp-line"></span>
+              </div>
+            </div>
+            {/* <div className="exp-data">
               <div>
                 <h3 className="exp-title">Higher Secondary Education</h3>
                 <span className="exp-subtitle">
@@ -79,13 +98,13 @@ const Experience = () => {
                     2019 - 2020
                   </h3>
                 </div>
-              </div>
+              </div> 
               <div>
                 <span className="exp-rounder"></span>
                 <span className="exp-line"></span>
               </div>
-            </div>
-            <div className="exp-data">
+          </div>*/}
+            {/* <div className="exp-data">
               <div>
                 <h3 className="exp-title">Secondary Education</h3>
                 <span className="exp-subtitle">
@@ -102,7 +121,7 @@ const Experience = () => {
                 <span className="exp-rounder"></span>
                 <span className="exp-line"></span>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div
@@ -112,7 +131,7 @@ const Experience = () => {
             onClick={() => toggleTab(2)}
           >
             <div className="exp-data">
-              <div>
+              <div class="datas">
                 <h3 className="exp-title">Salesforce Developer</h3>
                 <span className="exp-subtitle">
                   SmartInternz with Salesforce
@@ -130,7 +149,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="exp-data">
-              <div>
+              <div class="datas">
                 <h3 className="exp-title">Frontend-development</h3>
                 <span className="exp-subtitle">Edunet Foundations</span>
                 <div className="exp-calender">
@@ -147,7 +166,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="exp-data">
-              <div>
+              <div class="datas">
                 <h3 className="exp-title">UI/UX DESIGNER</h3>
                 <span className="exp-subtitle">BRAINQUEST</span>
                 <div className="exp-calender">

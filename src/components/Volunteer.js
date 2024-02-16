@@ -33,14 +33,14 @@ const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Volunteering Works</h2>
+              <h2>Other Activities</h2>
               <p>
                 I have been volunteering for the following groups and have some
                 contributions
               </p>
               <Carousel
                 responsive={responsive}
-                infinite={true}
+                infinite={false}
                 data-interval="false"
                 className="owl-carousel owl-theme skill-slider"
               >
@@ -53,9 +53,20 @@ const Skills = () => {
                   <h6>EVENT MANAGER</h6>
                 </div>
                 <div className="item">
-                  <img src="https://media.licdn.com/dms/image/C560BAQGVKavOFtqIcg/company-logo_200_200/0/1593965914944?e=2147483647&v=beta&t=Mm1nnS3cTe_gs7NrmDaI0_oUPjEoMjpNzq11SK1L7rA" alt="Image" />
-                                  <h5>Enactus REC</h5>
-                                  <h6>Member</h6>
+                  <img
+                    src="https://media.licdn.com/dms/image/D560BAQE2IKUWFcCrKg/company-logo_200_200/0/1692901650204?e=2147483647&v=beta&t=P9W1WQ2cKGUNNs_yU0LA0TjMVFfFxtzPSv7Y8ifZlbY"
+                    alt="Image"
+                  />
+                  <h5>GDSC REC</h5>
+                  <h6>MEMBER</h6>
+                </div>
+                <div className="item">
+                  <img
+                    src="https://media.licdn.com/dms/image/C560BAQGVKavOFtqIcg/company-logo_200_200/0/1593965914944?e=2147483647&v=beta&t=Mm1nnS3cTe_gs7NrmDaI0_oUPjEoMjpNzq11SK1L7rA"
+                    alt="Image"
+                  />
+                  <h5>Enactus REC</h5>
+                  <h6>MEMBER</h6>
                 </div>
               </Carousel>
             </div>

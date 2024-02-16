@@ -11,7 +11,7 @@ const NewComponent = () => {
       </div>
       <div className="linkedin-feed">
         <iframe
-          src="https://www.linkedin.com/embed/feed/update/urn:li:share:7088079130746896384"
+          src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7162487457991647232"
           height="500"
           width="450"
           frameborder="0"
@@ -19,7 +19,7 @@ const NewComponent = () => {
           title="Embedded post"
         ></iframe>
         <iframe
-          src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6939209628685602817"
+          src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7160686074044817408"
           height="500"
           width="450"
           frameborder="0"
@@ -27,7 +27,7 @@ const NewComponent = () => {
           title="Embedded post"
         ></iframe>
         <iframe
-          src="https://www.linkedin.com/embed/feed/update/urn:li:share:6928919543281041408"
+          src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7158143885607665664"
           height="500"
           width="450"
           frameborder="0"

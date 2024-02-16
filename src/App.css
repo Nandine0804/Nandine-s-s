@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Questrial&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @font-face {
     font-family: Centra;
     src: url("./assets/font/CentraNo2-Bold.ttf");
@@ -22,7 +22,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -100,7 +100,7 @@ select:focus {
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
     nav.navbar .navbar-nav .nav-link.navbar-link {
         margin-top: 20px;
         text-align: center;
@@ -114,7 +114,7 @@ select:focus {
     }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
     nav.navbar .navbar-nav .nav-link.navbar-link {
         margin-top: 20px;
         text-align: center;
@@ -360,6 +360,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     width: 90%;
+    text-align: justify;
 }
 
 .banner button {
@@ -435,10 +436,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     }
     .about {
         margin-left: -70px;
+        padding: 20px;
     }
     .about-heading {
         text-align: center;
-        margin-left: 50px;
+        margin: 10px 0px 10px 0p;
     }
     .about-connect {
         flex-wrap: wrap;
@@ -453,14 +455,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         width: 100%;
     }
     .about-section {
-        width: 130%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        padding: 100px;
     }
     .skill-slider .item img {
         width: 40%;
         margin: 0 auto 15px auto;
+    }
+    #home {
+        padding-left: 5px;
+    }
+    .datas {
+        width: 30vh;
+        padding: 5px;
     }
 }
 
@@ -475,17 +485,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         overflow-x: hidden;
     }
     .background {
-        width: 120%;
+        width: 100%;
         margin-left: 0px;
     }
 }
 
 
 /********************ABOUT*************/
-
-.about {
-    padding: 100px;
-}
 
 .about-line {
     width: 120px;
@@ -527,6 +533,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     color: black;
     border-radius: 10px;
     margin-top: 25px;
+    margin-left: 0px;
     padding: 15px;
     width: 100%;
     transition: all 0.5s ease-in-out;
@@ -541,6 +548,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .about-section p {
     font-size: 18px;
+    text-align: justify;
 }
 
 .about-connect {
@@ -574,6 +582,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px 0 75px 0;
+    text-align: justify;
 }
 
 .skill-slider {
@@ -595,10 +604,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     z-index: -4;
 }
 
+@media screen and (min-width: 1024px) {
+    .about {
+        padding: 100px;
+    }
+}
+
 @media screen and (max-width: 764px) {
+    .about {
+        padding-left: 95px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     .skill-bx {
         margin-top: 30px;
-        padding: 40px;
+        padding: 30px;
+    }
+    .skill {
+        padding: 0 0 50px 0;
+        position: relative;
     }
     .skill-slider {
         width: 90%;
@@ -610,18 +635,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         margin: 0 auto 15px auto;
     }
     .react-multiple-carousel__arrow--right {
-        right: calc(-7% + 1px);
+        right: calc(1% + 1px);
     }
     .react-multiple-carousel__arrow--left {
-        left: calc(-11% + 1px);
+        left: calc(1% + 1px);
     }
     .react-multiple-carousel__arrow {
         position: absolute;
         outline: 0;
-        transition: all .5s;
+        transition: all 0.5s;
         border-radius: 35px;
         z-index: 1000;
         border: 0;
+        width: 37px;
+        height: 37px;
     }
 }
 
@@ -1063,9 +1090,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         display: block;
         right: 0;
         left: 0;
+        padding: 0px 15px 0 10px;
     }
     .linkedin-feed {
-        margin-left: 0px;
+        padding: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 50px;
+        justify-content: center;
     }
 }
 
@@ -1144,13 +1177,12 @@ iframe {
         background-color: #fff;
         padding: 14px 48px;
         font-size: 18px;
-        width: 200px;
-        margin-left: 80px;
+        margin-left: 50px;
     }
 }
 
 .footer-copy {
-    margin-bottom: 17px;
+    margin-bottom: 10px;
 }
 
 .dark {

@@ -8,12 +8,9 @@ body {
     max-width: 100%;
 }
 
-.about {
-    padding: 100px;
-}
-
 .about-section p {
     font-size: 22px;
+    text-align: justify;
 }
 
 @media screen and (max-width: 1064px) {
@@ -30,10 +27,19 @@ body {
         padding: 5px;
         margin-left: 20px;
     }
+}
+
+@media screen and (max-width: 425px) {
+    .about-section {
+        padding: 5px;
+        margin-left: 20px;
+    }
     .about {
-        padding: 50px;
-        margin-bottom: 30px;
-        width: 136%;
+        padding-left: 95px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
     }
 }
 

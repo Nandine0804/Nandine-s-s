@@ -47,9 +47,9 @@ const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                I have sufficient knowledge of the following skills, and I'll
-                work to become skilled
-                <br /> by consistently putting them to use each day.
+                I possess proficient skills in design, coding, and cloud
+                computing, committed to daily practice for continuous
+                improvement and mastery.
               </p>
               <Carousel
                 responsive={responsive}
