@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import "./pro.css";
 import Technovation from "../assets/img/technovation.png";
 import Skill from "../assets/img/project-2.png";
+import pro1 from "../assets/img/project1.png";
 function Pro() {
   return (
     <div className="project-section">
@@ -17,28 +18,22 @@ function Pro() {
         <section class="dark">
           <article className="postcard dark blue">
             <a className="postcard__img_link" href="#">
-              <img
-                className="postcard__img"
-                src="https://picsum.photos/1000/1000"
-                alt="Image Title"
-              />
+              <img className="postcard__img" src={pro1} alt="Image Title" />
             </a>
             <div className="postcard__text">
               <h1 className="postcard__title blue">
-                <a href="#">PROJECT NO 1</a>
+                <a href="#">DEVELOPER REAL TIME CHAT APPLICATION</a>
               </h1>
               <div className="postcard__subtitle small">
-                <p>CHAT APPLICATION USING REACTJS WITH FIREBASE</p>
+                <p>MERN STACK</p>
               </div>
               <div className="postcard__bar"></div>
               <div className="postcard__preview-txt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi, fugiat asperiores inventore beatae accusamus odit
-                minima enim, commodi quia, doloribus eius! Ducimus nemo
-                accusantium maiores velit corrupti tempora reiciendis molestiae
-                repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt
-                neque nulla unde ipsum dolores nobis enim quidem excepturi,
-                illum quos!
+                To develop a real-time chat messaging application with robust
+                authentication and SMS notification features. Users can register
+                securely, log in, and engage in real-time conversations with
+                other users. Additionally, the app sends SMS notifications for
+                important events, enhancing user engagement and communication.
               </div>
               <ul className="postcard__tagbox">
                 <li className="tag__item">
@@ -48,7 +43,9 @@ function Pro() {
                 </li>
                 <li class="tag__item">
                   <Button variant="dark" className="project-button">
-                    Github Link
+                    <a href="https://github.com/Nandine0804/REAL_CHAT_APPLICATION">
+                      GITHUB
+                    </a>
                   </Button>
                 </li>
               </ul>
@@ -64,10 +61,10 @@ function Pro() {
             </a>
             <div className="postcard__text">
               <h1 className="postcard__title red">
-                <a href="#">PROJECT NO 2</a>
+                <a href="#">DEPARTMENT SYPOSIUM WEBSITE - CSBS </a>
               </h1>
               <div className="postcard__subtitle small">
-                <p>MY DEPARTMENT SYPOSIUM WEBSITE - CSBS </p>
+                <p>HTML,CSS & JS</p>
               </div>
               <div className="postcard__bar"></div>
               <div className="postcard__preview-txt">
@@ -81,7 +78,7 @@ function Pro() {
                 <li className="tag__item">
                   <Button variant="dark" className="project-button">
                     <a
-                      href="https://rajalakshmi.org/technovation/"
+                      href="https://nandine0804.github.io/Technovation_2.0/index.html"
                       target="_blank"
                     >
                       DEMO LINK
@@ -108,10 +105,10 @@ function Pro() {
             </a>
             <div className="postcard__text">
               <h1 className="postcard__title red">
-                <a href="#">PROJECT NO 3</a>
+                <a href="#">SKILL BREWERY - CODEVITA LIVE WEBSITE RECREATION</a>
               </h1>
               <div className="postcard__subtitle small">
-                <p>SKILL BREWERY - CODEVITA LIVE WEBSITE RECREATION</p>
+                <p>REACTJS , BOOTSTRAP & FIREBASE</p>
               </div>
               <div className="postcard__bar"></div>
               <div className="postcard__preview-txt">
@@ -119,8 +116,7 @@ function Pro() {
                   This project was created for the OutOfContext Web Hackathon
                   competition. In my creation, I have included the same
                   functionality and characteristics. Skill Brewery is an
-                  internship program provided by CodeVita Live.
-                  LANG USED : REACTJS,BOOSTRAP AND FIREBASE
+                  internship program provided by CodeVita Live. 
                 </p>
               </div>
               <ul className="postcard__tagbox">

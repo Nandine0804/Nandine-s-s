@@ -92,7 +92,7 @@ function BasicExample() {
               <a href="https://github.com/nandine0804">
                 <img src={navIcon2} alt="" className="social-git"></img>
               </a>
-              <a href="https://discord.gg/QdDHgrDZ">
+              <a href="https://discord.gg/dzMYTM8C">
                 <img src={navIcon3} alt=""></img>
               </a>
             </div>

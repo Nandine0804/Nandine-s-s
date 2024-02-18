@@ -332,6 +332,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     background-size: cover;
     background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEgqCer_w1svtRJCNIBTRW-93b-2VHgGvZWN0Ld3VTDVRSbT5ZTCPY9DQQRLmkyv6LhPOJKETol6tgDjMp-xERoiLnIXKMwmJcpzD9JNpf01ynUZjRYzsiP0WSvyR35sV-U157pOehpoqwpVZpgxzKrwJbADiyG8KL_2TzqAGzHxKl4jBRr-S7Ei6wSp6g=w640-h360");
     background-repeat: no-repeat;
+    image-rendering: pixelated
 }
 
 .banner .tagline {
