@@ -46,10 +46,11 @@ const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p>
+              <p><center>
                 I possess proficient skills in design, coding, and cloud
                 computing, committed to daily practice for continuous
                 improvement and mastery.
+                </center>
               </p>
               <Carousel
                 responsive={responsive}

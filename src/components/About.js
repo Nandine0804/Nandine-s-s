@@ -8,7 +8,6 @@ const About = () => {
         <span className="about-line"></span>
       </div>
       <div className="about-section">
-        
         <p>
           I have a passion for building stunning and useful websites and
           consider myself to be a skilled web developer and designer. I'm
@@ -30,7 +29,11 @@ const About = () => {
       </div>
       <div className="about-connect">
         <button className="about-connect-button">
-          <a href={Nandine} target="_blank" title="Nandine S S">
+          <a
+            href="https://drive.google.com/file/d/156DhLp-SRP7kCOXPi7coxtWinuwYUAGG/view?usp=sharing"
+            target="_blank"
+            title="Nandine S S"
+          >
             Resume
           </a>
         </button>

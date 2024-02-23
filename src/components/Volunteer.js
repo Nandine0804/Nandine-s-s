@@ -34,9 +34,10 @@ const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Other Activities</h2>
-              <p>
+              <p><center>
                 I have been volunteering for the following groups and have some
                 contributions
+                </center>
               </p>
               <Carousel
                 responsive={responsive}
