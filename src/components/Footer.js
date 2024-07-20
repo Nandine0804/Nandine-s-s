@@ -14,7 +14,7 @@ const Footer = () => {
           <a href="https://github.com/Nandine0804">
             <img src={navIcon2} alt=""></img>
           </a>
-          <a href="https://discord.gg/dzMYTM8C">
+          <a href="https://discord.gg/PTz42J4U">
             <img src={navIcon3} alt=""></img>
           </a>
         </div>

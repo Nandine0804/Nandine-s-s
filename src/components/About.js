@@ -1,5 +1,5 @@
 import React from "react";
-import Nandine from "../assets/resume/Nandine.pdf";
+
 const About = () => {
   return (
     <div id="about" className="about">
@@ -30,7 +30,7 @@ const About = () => {
       <div className="about-connect">
         <button className="about-connect-button">
           <a
-            href="https://drive.google.com/file/d/156DhLp-SRP7kCOXPi7coxtWinuwYUAGG/view?usp=sharing"
+            href="https://drive.google.com/file/d/1x1gEg4FRI1t6_882jOqnrCAZOkm3V--O/view?usp=sharing"
             target="_blank"
             title="Nandine S S"
           >

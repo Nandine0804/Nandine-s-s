@@ -22,28 +22,28 @@ function Pro() {
             </a>
             <div className="postcard__text">
               <h1 className="postcard__title blue">
-                <a href="#">DEVELOPER REAL TIME CHAT APPLICATION</a>
+                <a href="#">AWS CLOUD BLOG</a>
               </h1>
               <div className="postcard__subtitle small">
-                <p>MERN STACK</p>
+                <p>AWS PYTHON DJANGO</p>
               </div>
               <div className="postcard__bar"></div>
               <div className="postcard__preview-txt">
-                To develop a real-time chat messaging application with robust
-                authentication and SMS notification features. Users can register
-                securely, log in, and engage in real-time conversations with
-                other users. Additionally, the app sends SMS notifications for
-                important events, enhancing user engagement and communication.
+                Deploys a secure, scalable Django blog on AWS using EC2, RDS,
+                S3, DynamoDB, and more, ensuring robust performance and
+                compliance with security standards
               </div>
               <ul className="postcard__tagbox">
                 <li className="tag__item">
                   <Button variant="dark" className="project-button">
-                    Demo Link
+                    <a href="https://github.com/Nandine0804/cloud_blog">
+                      DEMO
+                    </a>
                   </Button>
                 </li>
                 <li class="tag__item">
                   <Button variant="dark" className="project-button">
-                    <a href="https://github.com/Nandine0804/REAL_CHAT_APPLICATION">
+                    <a href="https://github.com/Nandine0804/cloud_blog">
                       GITHUB
                     </a>
                   </Button>
@@ -116,7 +116,7 @@ function Pro() {
                   This project was created for the OutOfContext Web Hackathon
                   competition. In my creation, I have included the same
                   functionality and characteristics. Skill Brewery is an
-                  internship program provided by CodeVita Live. 
+                  internship program provided by CodeVita Live.
                 </p>
               </div>
               <ul className="postcard__tagbox">

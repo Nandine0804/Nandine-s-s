@@ -95,7 +95,10 @@ const Hero = () => {
                     class="connect"
                     onClick={() => console.log("connect")}
                   >
-                    <a href="https://linked.com"> Let’s Connect </a>
+                    <a href="https://www.linkedin.com/in/nandine/">
+                      {" "}
+                      Let’s Connect{" "}
+                    </a>
                     <ArrowRightCircle size={25} />
                   </button>
                 </div>
@@ -111,7 +114,11 @@ const Hero = () => {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img src={Img1} className="profile" alt="Header Img" />
+                  <img
+                    src="https://cdni.iconscout.com/illustration/premium/thumb/organising-document-files-6921015-5662090.png?f=webp"
+                    className="profile"
+                    alt="Header Img"
+                  />
                 </div>
               )}
             </TrackVisibility>
