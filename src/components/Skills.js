@@ -9,7 +9,7 @@ import meter8 from "../assets/img/bootstrap.png";
 import meter9 from "../assets/img/nodejs.png";
 import meter10 from "../assets/img/git-logo.png";
 import meter11 from "../assets/img/firebase.png";
-import meter12 from "../assets/img/java.png"
+import meter12 from "../assets/img/java.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
@@ -46,10 +46,11 @@ const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p><center>
-                I possess proficient skills in design, coding, and cloud
-                computing, committed to daily practice for continuous
-                improvement and mastery.
+              <p>
+                <center>
+                  I possess proficient skills in design, coding, and cloud
+                  computing, committed to daily practice for continuous
+                  improvement and mastery.
                 </center>
               </p>
               <Carousel
@@ -130,10 +131,10 @@ const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    src="https://www.gend.co/hs-fs/hubfs/gcp-logo-cloud.png?width=730&name=gcp-logo-cloud.png"
+                    src="https://static-00.iconduck.com/assets.00/spring-icon-256x256-2efvkvky.png"
                     alt="Image"
                   />
-                  <h5>GCP</h5>
+                  <h5>Spring Boot</h5>
                 </div>
               </Carousel>
             </div>

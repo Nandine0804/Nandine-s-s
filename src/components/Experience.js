@@ -54,7 +54,7 @@ const Experience = () => {
                   Rajalakshmi Engineering College , Thandalam
                 </span>
                 <div className="exp-calender">
-                  <p>CGPA : 8.85</p>
+                  <p>CGPA : 8.60</p>
                   <h3>
                     <img className="exp-icons" src={calendar} alt="calendar" />
                     2021 - Present

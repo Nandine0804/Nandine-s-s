@@ -18,7 +18,11 @@ function Pro() {
         <section class="dark">
           <article className="postcard dark blue">
             <a className="postcard__img_link" href="#">
-              <img className="postcard__img" src={pro1} alt="Image Title" />
+              <img
+                className="postcard__img"
+                src="https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png"
+                alt="Image Title"
+              />
             </a>
             <div className="postcard__text">
               <h1 className="postcard__title blue">
@@ -36,9 +40,7 @@ function Pro() {
               <ul className="postcard__tagbox">
                 <li className="tag__item">
                   <Button variant="dark" className="project-button">
-                    <a href="https://github.com/Nandine0804/cloud_blog">
-                      DEMO
-                    </a>
+                    <a href="https://github.com/Nandine0804/cloud_blog">DEMO</a>
                   </Button>
                 </li>
                 <li class="tag__item">
