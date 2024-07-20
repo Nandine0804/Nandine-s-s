@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Nandine-s-s/static/css/main.f8bdfdb6.css",
-    "main.js": "/Nandine-s-s/static/js/main.03e701fb.js",
+    "main.js": "/Nandine-s-s/static/js/main.fe497ef2.js",
     "static/js/787.1ed0c42c.chunk.js": "/Nandine-s-s/static/js/787.1ed0c42c.chunk.js",
     "static/media/img2.png": "/Nandine-s-s/static/media/img2.74f186fcbc2735da38dc.png",
     "static/media/image.png": "/Nandine-s-s/static/media/image.c3812ce813614a192802.png",
@@ -36,11 +36,11 @@
     "static/media/arrow2.svg": "/Nandine-s-s/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/Nandine-s-s/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.f8bdfdb6.css.map": "/Nandine-s-s/static/css/main.f8bdfdb6.css.map",
-    "main.03e701fb.js.map": "/Nandine-s-s/static/js/main.03e701fb.js.map",
+    "main.fe497ef2.js.map": "/Nandine-s-s/static/js/main.fe497ef2.js.map",
     "787.1ed0c42c.chunk.js.map": "/Nandine-s-s/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8bdfdb6.css",
-    "static/js/main.03e701fb.js"
+    "static/js/main.fe497ef2.js"
   ]
 }
