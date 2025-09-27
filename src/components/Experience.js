@@ -132,6 +132,24 @@ const Experience = () => {
           >
             <div className="exp-data">
               <div class="datas">
+                <h3 className="exp-title">Project Intern</h3>
+                <span className="exp-subtitle">
+                  Tata Consultancy Services
+                </span>
+                <div className="exp-calender">
+                  <h3>
+                    <img className="exp-icons" src={calendar} alt="calendar" />
+                    Feb 2025 - April 2025
+                  </h3>
+                </div>
+              </div>
+              <div>
+                <span className="exp-rounder"></span>
+                <span className="exp-line"></span>
+              </div>
+            </div>
+            <div className="exp-data">
+              <div class="datas">
                 <h3 className="exp-title">Salesforce Developer</h3>
                 <span className="exp-subtitle">
                   SmartInternz with Salesforce
@@ -148,23 +166,7 @@ const Experience = () => {
                 <span className="exp-line"></span>
               </div>
             </div>
-            <div className="exp-data">
-              <div class="datas">
-                <h3 className="exp-title">Frontend-development</h3>
-                <span className="exp-subtitle">Edunet Foundations</span>
-                <div className="exp-calender">
-                  <h3>
-                    {" "}
-                    <img className="exp-icons" src={calendar} alt="calendar" />
-                    JAN 2023
-                  </h3>
-                </div>
-              </div>
-              <div>
-                <span className="exp-rounder"></span>
-                <span className="exp-line"></span>
-              </div>
-            </div>
+            
             <div className="exp-data">
               <div class="datas">
                 <h3 className="exp-title">UI/UX DESIGNER</h3>
