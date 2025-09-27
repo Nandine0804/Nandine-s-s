@@ -115,7 +115,7 @@ const Hero = () => {
                   }
                 >
                   <img
-                    src="https://cdni.iconscout.com/illustration/premium/thumb/organising-document-files-6921015-5662090.png?f=webp"
+                    src="https://static.vecteezy.com/system/resources/thumbnails/044/448/931/small_2x/cartoon-character-with-the-desk-working-concept-illustration-free-png.png"
                     className="profile"
                     alt="Header Img"
                   />
