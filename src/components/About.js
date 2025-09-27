@@ -9,22 +9,14 @@ const About = () => {
       </div>
       <div className="about-section">
         <p>
-          I have a passion for building stunning and useful websites and
-          consider myself to be a skilled web developer and designer. I'm
-          currently a pre-final student at Rajalakshmi Engineering College
-          (REC), where I'm laying a solid foundation in computer science and
-          business systems. I also had the chance to design the website for my
-          department, which attracts lots of students due to the numerous
-          animations I used.
+          Enthusiastic and detail-oriented Software Engineer with a B.Tech in Computer Science and Business Systems (GPA: 8.79) from Rajalakshmi Engineering College. 
+          Skilled in full-stack development, cloud computing, and Salesforce development with hands-on experience from internships at TCS and SmartInternz.
+          Proficient in Java, Python, C++, React, Spring Boot, and experienced with cloud platforms like AWS, Azure, and Salesforce.
         </p>
         <p>
-          I like to create new things or start from scratch in my spare time,
-          experiment with emerging design trends and techniques. I'm elated
-          about the career opportunities that lie ahead of me and am looking
-          forward to applying my knowledge and expertise to develop powerful,
-          user-centered digital experiences. I can't wait to put my knowledge
-          and experience to use in creating effective, user-centered digital
-          experiences.
+          Demonstrated strengths in designing scalable applications, automating workflows, and optimizing data pipelines. Adept at collaborating in Agile teams, leading UI/UX design initiatives, and delivering real-world solutions through projects and hackathons.
+
+Now seeking a full-time opportunity to contribute technical expertise and drive innovation in a dynamic engineering team.
         </p>
       </div>
       <div className="about-connect">
